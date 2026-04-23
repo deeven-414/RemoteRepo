@@ -1,0 +1,269 @@
+    1  git --version
+    2  ls -a
+    3  git status
+    4  git clone https://github.com/deeven-414/RemoteRepo.git
+    5  ls
+    6  cd RemoteRepo
+    7  ls
+    8  touch file1.txt
+    9  touch file2.txt
+   10  gt log
+   11  git log
+   12  git status
+   13  vi file1.txt
+   14  cat file1.txt
+   15  git add file1.txt
+   16  git status
+   17  git commit -m "first commit:file1"
+   18  git commit -m "First commit:file1"
+   19  git log
+   20  git commit -m "First commit:file1"
+   21  git config --global user "deevan"
+   22  git config --global user.name "deevan"
+   23  git config --global user.emali "deevenchowdary@gmail.com"
+   24  git commit -m "First commit:file1"
+   25  git config --global user.name
+   26  git config --global user.email
+   27  git config --global user.emali "deevenchowdary@gmail.com"
+   28  git config --global user.email
+   29  git config --global user.emali "deevanchilukuri@gmail.com"
+   30  git config --global user.email
+   31  git config --global user.email deevenchowdary@gmail.com
+   32  git config --global user.email
+   33  git log
+   34  git commit -m "First commit:file1"
+   35  git log
+   36  vi file2.txt
+   37  git status
+   38  git add file2.txt
+   39  git status
+   40  git diff --staged
+   41  git commit -m "second commit:file2"
+   42  git log --oneline
+   43  git status
+   44  ls
+   45  ls -a
+   46  vi file1.txt
+   47  git status
+   48  git add file1.txt
+   49  git status
+   50  vi file2.txt
+   51  git status
+   52  git diff
+   53  git commit -m "third commit:file1"
+   54  git log --oneline
+   55  git diff HEAD
+   56  git status
+   57  git add file2.txt
+   58  git status
+   59  git commit -m "fourth commit:file2"
+   60  git log --oneline
+   61  git diff 9b69f73 71dc83a
+   62  ls 
+   63  git push origin main
+   64  history > exp1_commands.txt
+   65  ls -a
+   66  ls -a
+   67  cd localRepo
+   68  cd repositories
+   69  cd localRepo
+   70  ls -a
+   71  git init
+   72  ls -a
+   73  touch file1.txt
+   74  touch file2.txt
+   75  touch file3.txt#
+   76  touch file4.txt
+   77  git status
+   78  vi file1.txt
+   79  vi file2.txt
+   80  vi file3.txt
+   81  vi file4.txt
+   82  git status
+   83  git add file1.txt
+   84  git status
+   85  git commit -m "first file committed"
+   86  git log
+   87  git status
+   88  git add file2.txt
+   89  git commit -m "second file comited"
+   90  git status
+   91  git add file3.txt
+   92  git commit -m "third file commited"
+   93  git status
+   94  git add file4.txt
+   95  git commit -m "fourth file commited"
+   96  git log --oneline
+   97  git revert
+   98  git log --oneline
+   99  git revert 640cb05
+  100  git log --onelinw
+  101  git log --oneline
+  102  cat file4.txt
+  103  vi file4.txt
+  104  git add file4.txt
+  105  git commit -m "after reverting fourth file comited"
+  106  git log --oneline
+  107  git remote add origin
+  108  git remote add origin [200~https://github.com/deeven-414/localRepo.git~
+  109  git push origin main
+  110  git remote add origin https://github.com/deeven-414/localRepo.git
+  111  git push origin main
+  112  git remote add origin https://github.com/deeven-414/localRepo.git
+  113  git remote add origin https://github.com/deeven-414/localRepo.git
+  114  git push origin main
+  115  git remote remove origin
+  116  git remote add origin https://github.com/deeven-414/localRepo.git
+  117  git push origin main
+  118  history > exp2_commands.txt
+  119  git status
+  120  git --version
+  121  git config --global user.name "SHALEM"
+  122  git log oneline
+  123  git branch
+  124  cd RemoteRepo
+  125  cd ..
+  126  cd branch
+  127  cd branchRepo
+  128  git log
+  129  git log oneline
+  130  git clone https://github.com/deeven-414/branchRepo.git
+  131  git log oneline
+  132  git clone https://github.com/deeven-414/branchRepo.git
+  133  cd branchRepo
+  134  touch file1.txt
+  135  vi file1.txt
+  136  git add file1.txt
+  137  git commit -m "update from file1"
+  138  git push origin main
+  139  git fetch origin
+  140  git clone remote.git second-repo
+  141  mkdir merge-rebase-demo
+  142  mkdir merge-rebase-demo
+  143  cd merge-rebase-demo
+  144  git init
+  145  echo "initial code" > app.txt
+  146  git add app.txt
+  147  git commit -m "initial commit"
+  148  git checkout -b feature
+  149  vi app.txt
+  150  vi app.txt
+  151  echo "feature line2" >>app.txt
+  152  vi app.txt
+  153  git add app.txt
+  154  git commit -m "feature commit 1"
+  155  git commit -m "feature commit 2"
+  156  git checkout.txt
+  157  git checkout main
+  158  echo "hotflix on main" >>app.txt
+  159  git add app.txt
+  160  git commit -m "hotfix commit"
+  161  git status
+  162  git checkout main
+  163  git merge feature
+  164  git log --oneline --graph --all
+  165  git log oneline
+  166  git status
+  167  history >"exp4 commands"
+  168  git remote add origin https://github.com/deeven-414/genai_gurus.git
+  169  git init .
+  170  git remote add origin https://github.com/deeven-414/genai_gurus.git
+  171  git push origin main
+  172  git push origin/main
+  173  git push origin
+  174  git push main
+  175  git status
+  176  git add .
+  177  git commit -m "initial commit"
+  178  git push origin main
+  179  git push origin
+  180  git status
+  181  git clone https://github.com/deeven-414/experiment3.git
+  182  cd experiment3
+  183* 
+  184  echo "initial commit" >>file3.1.txt
+  185  git add file3.1.txt
+  186  git commit -m "initial commit"
+  187  git log
+  188  git branch -M main
+  189  cat file3.3.txt
+  190  cat file3.1.txt
+  191  git log --oneline
+  192  git remote add origin main
+  193  git push origin main
+  194  git fetch origin
+  195  git status
+  196  git log origi --oneline
+  197  git diff main origin
+  198  git merge origin
+  199  cat file3.1.txt
+  200  git pull origin main
+  201  cat file3.1.txt
+  202  git fetch origin
+  203  git status
+  204  git log origin/main --oneline
+  205  git merge origin/main
+  206  cat file3.1.txt
+  207  git log --oneline
+  208  git pull origin main
+  209  cat file3.1.txt
+  210  git log --oneline
+  211  history > exp_3commands
+  212  cd renote-repo-1
+  213  cd ..
+  214  cd remoterepo
+  215  git remote -v
+  216  git branch
+  217  git branch feature
+  218  git checkout feature
+  219  vi file2.txt
+  220  git add file2.txt
+  221  git status
+  222  git commit -m "file2 update"
+  223  ls
+  224  git checkout main
+  225  git switch feature-branch
+  226  git switch fearture-branch
+  227  git branch
+  228  git branch feature
+  229  git add file2.txt
+  230  git status
+  231  git checkout main
+  232  git switch feature-branch
+  233  git switch feature-branch
+  234  git fetch origin
+  235  git branch -a
+  236  git switch feature-branch
+  237  git checkout feature
+  238  ls
+  239  git checkout main
+  240  git switch feature-branch
+  241  git switch feature
+  242  vi file3.txt
+  243  git dd
+  244  git add
+  245  git add.
+  246  git add .
+  247  git commit -m "file3 upload"
+  248  git log --oneline
+  249  git pull origin main
+  250  git checkout main
+  251  git merge feature
+  252  vi file3.txt
+  253  git commit -a -m "file3 uploaded from main"
+  254  git log --oneline
+  255  git push origin main
+  256  git branch rebase-branch
+  257  git switch rebase-branch
+  258  git branch
+  259  cat >file4.txt
+  260  git add .
+  261  git commit -m "file4"
+  262  git log --oneline
+  263  git rebase main
+  264  git chekout main
+  265  git checkout main
+  266  git merge rebase-branch
+  267  git push origin main
+  268  git log --oneline
+  269  history > exp4-commands
